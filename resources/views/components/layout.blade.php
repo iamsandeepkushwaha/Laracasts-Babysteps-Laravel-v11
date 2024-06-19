@@ -6,6 +6,9 @@
 	<title>About Page</title>
 </head>
 <body>
-	<h1>Hello from About Page.</h1>
+	<x-nav-link href="/">Home</x-nav-link>
+	<x-nav-link href="/about">About</x-nav-link>
+	<x-nav-link href="/contact">Contact</x-nav-link>
+	{{ $slot }}
 </body>
 </html>
